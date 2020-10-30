@@ -4,6 +4,7 @@ import Header from './components/Header';
 import TopBanner from './components/TopBanner';
 import PreviewSection from './components/Preview';
 import Communication from './components/Communication';
+import Ordering from './components/Ordering';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <TopBanner/>
       <PreviewSection/>
       <Communication />
+      <Ordering />
     </div>
   );
 }

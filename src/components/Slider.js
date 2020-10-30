@@ -5,7 +5,7 @@ import sliderImg from '../assets/images/slider-image-orders.png';
 function Slider() {
     return (
         <div className="slider">
-            <div className="slider-text-section">
+            <div className="slider-text-block">
                 <h2 className="section-header slider-header">All your orders in one place</h2>
                 <p className="section-text slider-text">Say no more to chunky emails and messy WhatsApp messages. Receive and manage your orders in one platform</p>
                 <div className="slider-controls">
@@ -22,7 +22,7 @@ function Slider() {
                     </div>
                 </div>
             </div>
-            <div className="slider-img-section">
+            <div className="slider-img-block">
                 <img className="slider-img active" src={ sliderImg } alt="screenshot of orders page" />
             </div>
         </div>

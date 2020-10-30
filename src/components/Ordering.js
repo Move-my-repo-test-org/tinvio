@@ -1,0 +1,35 @@
+import React from 'react';
+import orderingStep1 from '../assets/images/ordering-step1.png';
+import orderingStep2 from '../assets/images/ordering-step2.png';
+import orderingStep3 from '../assets/images/ordering-step3.png';
+import arrow from '../assets/icons/arrow.png';
+import check from '../assets/icons/check.png';
+
+function Ordering() {
+    return (
+        <section className="ordering">
+            <div className="container">
+                <div className="ordering-text-block">
+                    <h2 className="section-header ordering-header">Seamless Ordering Experience</h2>
+                    <p className="section-text ordering-text">Increase your sales by 30% with a better checkout experience. Your customers can place orders easily with a few taps on the item list</p>
+                </div>
+                <div className="ordering-imgs-block">
+                    <div className="ordering-img-wrapper">
+                        <img className="ordering-img" src={ orderingStep1 } alt="screenshot of ordering step 1" />
+                        <p className="ordering-img-text">Select Items<span><img className="ordering-text-icon" src={ arrow } alt="left arrow" /></span></p>
+                    </div>
+                    <div className="ordering-img-wrapper">
+                        <img className="ordering-img" src={ orderingStep2 } alt="screenshot of ordering step 2" />
+                        <p className="ordering-img-text">Review Order<span><img className="ordering-text-icon" src={ arrow } alt="left arrow" /></span></p>
+                    </div>
+                    <div className="ordering-img-wrapper">
+                        <img className="ordering-img" src={ orderingStep3 } alt="screenshot of ordering step 3" />
+                        <p className="ordering-img-text">Send Order<span><img className="ordering-text-icon" src={ check } alt="check icon" /></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default Ordering;

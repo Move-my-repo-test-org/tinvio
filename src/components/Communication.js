@@ -10,7 +10,7 @@ function Communication() {
         <section className="communication">
             <div className="container">
                 <img className="communication-img" src={ communicationType === 'before' ? communicationImg : goodCommunication } alt="screenshot of communication" />
-                <div className="communication-text-section">
+                <div className="communication-text-block">
                     <h2 className="section-header communication-header">Communication</h2>
                     <div className="communication-btns-block">
                         <button className={ communicationType === 'before' ? "communication-btn active" : "communication-btn" } onClick={ () => {setCommunicationType('before')} }>BEFORE</button>
