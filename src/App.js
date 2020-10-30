@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import TopBanner from './components/TopBanner';
 import PreviewSection from './components/Preview';
+import Communication from './components/Communication';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <TopBanner/>
       <PreviewSection/>
+      <Communication />
     </div>
   );
 }

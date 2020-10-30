@@ -7,7 +7,7 @@ function Slider() {
         <div className="slider">
             <div className="slider-text-section">
                 <h2 className="section-header slider-header">All your orders in one place</h2>
-                <p className="slider-text">Say no more to chunky emails and messy WhatsApp messages. Receive and manage your orders in one platform</p>
+                <p className="section-text slider-text">Say no more to chunky emails and messy WhatsApp messages. Receive and manage your orders in one platform</p>
                 <div className="slider-controls">
                     <div className="left-arrow-btn">
                         <img className="left-arrow" src={ arrow } alt="left arrow" />
