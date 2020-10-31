@@ -6,16 +6,22 @@ import PreviewSection from './components/Preview';
 import Communication from './components/Communication';
 import Ordering from './components/Ordering';
 import Steps from './components/Steps';
+import GetStarted from './components/GetStarted';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <TopBanner/>
-      <PreviewSection/>
-      <Communication />
-      <Ordering />
-      <Steps />
+      <header className="header">
+        <Header/>
+      </header>
+      <main className="main-content">
+        <TopBanner/>
+        <PreviewSection/>
+        <Communication />
+        <Ordering />
+        <Steps />
+        <GetStarted />
+      </main>
     </div>
   );
 }
