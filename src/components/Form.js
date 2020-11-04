@@ -1,5 +1,4 @@
 import React from 'react';
-import telIcon from '../assets/icons/tel-icon.png';
 
 function Form() {
 

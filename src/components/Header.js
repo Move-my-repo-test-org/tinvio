@@ -20,7 +20,6 @@ function Header() {
     })
 
     const makeActive = (e) => {
-        console.log(e.target.innerHTML)
         setCurrentPage(e.target.innerHTML);
     }
     
@@ -32,9 +31,9 @@ function Header() {
                     <div className="desktop-menu">
                         <div className="menu-container" onClick={makeActive}>
                             <a href="./" className={ currentPage==='Home' ? "active menu-item" : "menu-item" } >Home</a>
-                            <a href="./Supplier" className={ currentPage==='Supplier' ? "active menu-item" : "menu-item" } >Supplier</a>
-                            <a href="./About" className={ currentPage==='About' ? "active menu-item" : "menu-item" } >About</a>
-                            <a href="./Contact" className={ currentPage==='Contact' ? "active menu-item" : "menu-item" } >Contact</a>
+                            <a href="./supplier" className={ currentPage==='Supplier' ? "active menu-item" : "menu-item" } >Supplier</a>
+                            <a href="./about" className={ currentPage==='About' ? "active menu-item" : "menu-item" } >About</a>
+                            <a href="./contact" className={ currentPage==='Contact' ? "active menu-item" : "menu-item" } >Contact</a>
                         </div>
                         <button className="header-btn">Get Started</button>
                     </div> :

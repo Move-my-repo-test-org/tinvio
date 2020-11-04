@@ -7,6 +7,7 @@ import Communication from './components/Communication';
 import Ordering from './components/Ordering';
 import Steps from './components/Steps';
 import GetStarted from './components/GetStarted';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <Steps />
         <GetStarted />
       </main>
+      <footer className="footer">
+        <Footer />
+      </footer>
     </div>
   );
 }
