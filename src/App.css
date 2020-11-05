@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Manrope3";
+    src:    local('Manrope3-Bold'),
+            url('assets/fonts/Manrope3-Bold.otf');
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: "Manrope3";
+    src:    local('Manrope3-Semibold'),
+            url('assets/fonts/Manrope3-Semibold.otf');
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: "Manrope3";
+    src:    local('Manrope3-Medium'),
+            url('assets/fonts/Manrope3-Medium.otf');
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: 'HandOfSeanPro';
+    src:    local('HandOfSeanPro-Regular'),
+            url('assets/fonts/HandOfSean.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Apple Color Emoji";
+    src:    local("AppleColorEmoji"),
+            url('assets/fonts/AppleColorEmoji.ttf');
+}
+
+body {
+    font-family: 'Manrope3', 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 76px;
+}
