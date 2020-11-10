@@ -1,0 +1,91 @@
+.top-banner {
+    
+    height: 700px;
+    box-sizing: border-box;
+    padding-top: 80px;
+    background: url('../assets/images/bg-topBanner-left.png') left -120px top 124px / 390px no-repeat,
+                url('../assets/images/bg-topBanner-right.png') right -60px top 110px / 325px no-repeat;
+    background-color: #F8F9FB;
+}
+
+.top-banner .container {
+    padding-top: 115px;
+}
+
+.main-header {
+    margin: 16px auto 0 auto;
+    max-width: 812px;
+    height: 168px;
+    font-family: Manrope3;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #21272e;
+}
+
+.getStarted-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0px 17px 40px;
+    width: 214px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(104deg, #ff474d, #fa4353);
+    box-shadow: 0 10px 40px -20px rgb(59, 14, 14);
+
+    font-family: Manrope3;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.33;
+    text-align: center;
+    color: #fff;
+}
+
+.comment {
+    margin-top: 16px;
+    font-family: Manrope3;
+    font-size: 12px;
+    font-weight: 500;
+    color: #909599;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1279px) {
+    .top-banner {
+        background: url('../assets/images/bg-topBanner-left.png') left -220px top 124px / 390px no-repeat,
+                    url('../assets/images/bg-topBanner-right.png') right -150px top 110px / 325px no-repeat;
+        background-color: #F8F9FB;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .top-banner {
+        background: url('../assets/images/bg-topBanner-left.png') left -250px top 124px / 390px no-repeat,
+                    url('../assets/images/bg-topBanner-right.png') right -160px top 110px / 325px no-repeat;
+        background-color: #F8F9FB;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top-banner {
+        height: 1100px;
+        background: url('../assets/images/bg-topBanner-left.png') left -170px top 500px / 390px no-repeat,
+                    url('../assets/images/bg-topBanner-right.png') right -160px top 570px / 325px no-repeat;
+        background-color: #F8F9FB;
+    }
+
+    .top-banner .container {
+        padding-top: 30px;
+    }
+
+    .main-header  {
+        font-size: 28px;
+        max-width: 87vw;
+        height: auto;
+    }
+
+    .getStarted-btn {
+        margin-top: 48px;
+    }
+}
