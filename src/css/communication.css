@@ -1,0 +1,206 @@
+.communication {
+    height: 560px;
+    background: #F8F9FB;
+}
+
+.communication .container {
+    display: flex;
+    padding-top: 96px;
+    margin-left: 50px;
+    margin-right: 76px;
+    max-width: none;
+}
+
+.communication-img-container {
+    width: 624px;
+    margin-top: 26px;
+    margin-right: 122px;
+}
+
+.communication-img {
+    width: 624px;
+    height: auto;
+}
+
+.goodCommunication-img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.communication-header {
+    margin-bottom: 40px;
+}
+
+.communication-btns-block {
+    margin-bottom: 64px;
+}
+
+.communication-btn {
+    width: 128px;
+    height: 48px;
+    padding: 15px 36px 15px 35px;
+    border-radius: 6px;
+    border: solid 1px rgba(144, 149, 153, 0.35);
+    background-color: rgba(255, 255, 255, 0);
+
+    font-family: Manrope3;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #787c80;
+}
+
+.communication-btn:first-of-type {
+    margin-right: 24px;
+}
+
+.communication-btn.active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.11);
+    border: solid 1px rgba(33, 39, 46, 0.05);
+    background-color: #fff;
+
+    color: #f43939;
+
+}
+
+.communication hr {
+    min-width: 408px;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 56px;
+    opacity: 0.2;
+    background-color: #21272e;
+}
+
+.communication-subtitle {
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 1279px) {
+    .communication-img-container {
+        width: 48vw;
+        margin-top: 70px;
+        margin-right: 5vw;
+    }
+
+    .communication-img {
+        width: 48vw;
+        height: auto;
+    }
+
+    .goodCommunication-img {
+        width: 35vw;
+    }
+
+    .communication-text {
+        max-width: 398px;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .communication {
+        height: 875px;
+    }
+
+    .communication .container {
+        position: relative;
+        display: block;
+        padding-top: 64px;
+        margin: 0 auto;
+        width: 65vw;
+    }
+
+    .communication-img-container {
+        position: absolute;
+        width: 64vw;
+        text-align: center;
+        top: 300px;
+        margin: 0;
+    }
+
+    .communication-img {
+        width: 64vw;
+        max-width: 600px;
+    }
+
+    .goodCommunication-img {
+        width: 50vw;
+        max-width: 400px;
+    }
+
+    .communication-text-block {
+        position: absolute;
+        width: 64vw;
+        top: 64px;
+        text-align: center;
+    }
+
+    .communication-header {
+        margin-bottom: 46px;
+    }
+
+    .communication hr {
+        display: none;
+    }
+
+    .communication-subtitle {
+        position: absolute;
+        top: 583px;
+        width: 64vw;
+        text-align: center;
+    }
+
+    .communication-text {
+        position: absolute;
+        display: block;
+        top: 621px;
+        min-width: 300px;
+        margin: 0 12.5vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .communication {
+        height: 750px;
+    }
+
+    .communication .container {
+        margin: 0 auto;
+        width: 89vw;
+    }
+
+    .communication-img-container {
+        width: 89vw;
+        top: 276px;
+    }
+
+    .communication-img {
+        width: 89vw;
+        max-width: 400px;
+    }
+
+    .goodCommunication-img {
+        width: 75vw;
+        max-width: 350px;
+    }
+
+    .communication-text-block {
+        width: 89vw;
+    }
+
+    .communication-subtitle {
+        top: 458px;
+        width: 89vw;
+    }
+
+    .communication-text {
+        top: 496px;
+        width: 89vw;
+        min-width: none;
+        max-width: none;
+        margin: 0;
+    }
+}
