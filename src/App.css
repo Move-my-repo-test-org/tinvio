@@ -60,7 +60,23 @@ p {
     color: #f43939;
 }
 
+.section-header {
+    font-family: Manrope3;
+    font-size: 32px;
+    font-weight: bold;
+    color: #21272e;
+}
+
 button {
     margin: 0;
     padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
 }
