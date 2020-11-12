@@ -13,6 +13,7 @@
 
 .communication-img-container {
     width: 624px;
+    min-width: 624px;
     margin-top: 26px;
     margin-right: 122px;
 }
@@ -81,6 +82,7 @@
 @media only screen and (max-width: 1279px) {
     .communication-img-container {
         width: 48vw;
+        min-width: 48vw;
         margin-top: 70px;
         margin-right: 5vw;
     }
@@ -116,6 +118,7 @@
     .communication-img-container {
         position: absolute;
         width: 64vw;
+        min-width: 64vw;
         text-align: center;
         top: 300px;
         margin: 0;
@@ -174,6 +177,7 @@
 
     .communication-img-container {
         width: 89vw;
+        min-width: 89vw;
         top: 276px;
     }
 

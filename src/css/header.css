@@ -38,7 +38,7 @@
 
 }
 
-.vertical-line {
+.header-vertical-line {
     border-right: 1px solid rgba(33, 39, 46, 0.2);
     height: 24px;
 }
@@ -96,6 +96,10 @@
 
     .logo {
         padding-right: 0;
+    }
+
+    .header-vertical-line {
+        display: none;
     }
 
     .burger-img {

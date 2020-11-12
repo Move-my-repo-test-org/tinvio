@@ -31,7 +31,7 @@ function Header() {
             <div className="container">
                 <nav className="nav">
                     <a href="./" className="logo"><img src={ logo } className="logo-img" alt="logo" /></a>
-                    {deviceType==='Desktop'? <div className="vertical-line"></div> : null}
+                    <div className="header-vertical-line"></div>
                     {deviceType==='Desktop'? 
                         (<div className="desktop-menu">
                             <div className="menu-container" onClick={makeActive}>
