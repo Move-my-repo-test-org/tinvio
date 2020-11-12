@@ -1,12 +1,13 @@
 footer {
     height: 146px;
     background-color: #21272f;
+    padding: 0 76px 0 63px;
 }
 
 footer .container {
-    margin: 0 76px 0 63px;
+    margin: 0 auto;
     padding-top: 48px;
-    max-width: none;
+    max-width: 1141px;
 }
 
 .footer-first-line {
@@ -94,18 +95,15 @@ footer .container {
 }
 
 @media only screen and (max-width: 1279px) {
-    footer .container {
-        margin: 0 44px 0 31px;
+    footer {
+        padding: 0 44px 0 31px;
     }
 }
 
 @media only screen and (max-width: 1023px) {
     footer {
         height: 193px;
-    }
-
-    footer .container {
-        margin: 0 30px 0 45px;
+        padding: 0 30px 0 45px;
     }
 
     .footer-first-line {
