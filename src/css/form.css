@@ -1,0 +1,162 @@
+.form-wrapper {
+    width: 407px;
+    height: 461px;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 13px;
+    box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.form-title {
+    margin-bottom: 49px;
+}
+
+input {
+    margin-bottom: 32px;
+    padding-left: 16px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px rgba(144, 149, 153, 0.35);
+    background-color: #fff;
+
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+}
+
+.text-input {
+    width: 343px;
+}
+
+.telephone-input-block {
+    position: relative;
+}
+
+.country-code-input {
+    width: 96px;
+    margin-right: 16px;
+}
+
+.tel-number-input {
+    position: relative;
+    width: 231px;
+}
+
+.telephone-input-block::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    background: url('../assets/icons/tel-icon.png') no-repeat top/cover;
+}
+
+input::-webkit-input-placeholder {
+    padding: 0;
+    margin: 0;
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #b4babf;
+}
+
+input::-moz-placeholder {
+    padding: 0;
+    margin: 0;
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #b4babf;
+}
+
+input:-moz-placeholder {
+    padding: 0;
+    margin: 0;
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #b4babf;
+}
+
+input:-ms-input-placeholder {
+    padding: 0;
+    margin: 0;
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #b4babf;
+}
+
+.btns-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    margin-right: 14px;
+}
+
+.getStarted-btn {
+    width: 172px;
+    height: 52px;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(107deg, #ff474d, #fa4353);
+}
+
+.btn-comment {
+    font-family: Manrope3;
+    font-size: 12px;
+    font-weight: 500;
+    color: #909599;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .form-wrapper {
+        width: 312px;
+        height: 489px;
+        padding: 32px 28px 24px 32px;
+    }
+    
+    .text-input {
+        width: 252px;
+        height: 56px;
+    }
+
+    .country-code-input {
+        width: 80px;
+        margin-right: 16px;
+    }
+    
+    .tel-number-input {
+        position: relative;
+        width: 156px;
+    }
+
+    .btns-block {
+        flex-wrap: wrap;
+    }
+
+    .getStarted-btn {
+        width: 252px;
+        height: 52px;
+        margin-bottom: 16px;
+    }
+    
+    .btn-comment {
+        width: 252px;
+        text-align: center;
+    }
+}
