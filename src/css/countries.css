@@ -1,0 +1,32 @@
+.countries-list-wrapper {
+    width: 288px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 24px 24px 21px 24px;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #21272e;
+}
+
+.countries-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.country-flag-icon {
+    margin-right: 8px;
+}
+
+.country {
+    display: flex;
+    margin-bottom: 11px;
+    min-width: 95px;
+    text-align: left;
+}

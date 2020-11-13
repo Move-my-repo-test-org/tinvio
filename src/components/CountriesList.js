@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/countries.css';
 
 function CountriesList() {
     return (
