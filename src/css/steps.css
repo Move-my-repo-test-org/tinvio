@@ -1,0 +1,130 @@
+.steps {
+    padding: 0 110px;
+    background-color: #F8F9FB;
+}
+
+.steps .container {
+    margin: 0 auto;
+    padding: 88px 0 91px 0;
+    box-sizing: border-box;
+    max-width: 1060px;
+    text-align: center;
+}
+
+.steps-header {
+    margin: 16px auto 87px auto;
+}
+
+.three-steps-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-wrapper {
+    width: 308px;
+    min-width: 308px;
+}
+
+.step-img {
+    width: 57px;
+    height: 56px;
+    margin-bottom: 32px;
+}
+
+.step-subtitle {
+    margin-bottom: 8px;
+}
+
+.step-text {
+    margin: 0 auto;
+    font-family: Manrope3;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #787c80;
+}
+
+.second-step-text {
+    max-width: 200px;
+}
+
+.third-step-text {
+    max-width: 222px;
+}
+
+.steps-line {
+    margin: 28px -102px 0 -102px;
+    width: 272px;
+    height: 2px;
+    opacity: 0.1;
+    background-color: #21272e;
+}
+
+@media only screen and (max-width: 1279px) {
+    .steps {
+        padding: 0 50px 0 24px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .steps {
+        padding: 0 110px;
+    }
+
+    .steps .container {
+        padding: 88px 0 102px 0;
+    }
+
+    .steps-header {
+        margin: 16px auto 79px auto;
+    }
+
+    .three-steps-block {
+        display: block;
+        width: 416px;
+        margin: 0 auto;
+    }
+
+    .step-wrapper {
+        width: 416px;
+        min-width: 416px;
+        text-align: center;
+    }
+
+    .step-img {
+        margin-bottom: 16px;
+    }
+
+    .steps-line {
+        width: 2px;
+        height: 56px;
+        margin: 24px auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .steps {
+        padding: 0 30px;
+    }
+
+    .steps .container {
+        padding: 73px 0 82px 0;
+    }
+
+    .steps-header {
+        font-size: 28px;
+        margin: 16px auto 61px auto;
+    }
+
+    .three-steps-block {
+        width: auto;
+        margin: 0 -30px;
+    }
+
+    .step-wrapper {
+        width: 360px;
+        min-width: 360px;
+        margin: 0 auto;
+    }
+}
