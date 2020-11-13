@@ -1,0 +1,236 @@
+.get-stated {
+    padding: 0px 149px 0px 76px;
+    background: url('../assets/images/bubbles-bg.png') left -113px top 139px / 719px no-repeat;
+}
+
+.get-stated .container {
+    position: relative;
+    padding: 223px 0 91px 0;
+    margin: 0 auto;
+}
+
+.getStarted-header-block {
+    width: 494px;
+    text-align: left;
+}
+
+.getStarted-overhead {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.getStarted-header {
+    font-size: 40px;
+    white-space: pre-line;
+}
+
+.handwritten-text {
+    opacity: 0.9;
+    font-family: HandOfSeanPro;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    color: #21272e;
+  
+}
+
+.getStarted-form-block {
+    position: absolute;
+    width: 407px;
+    top: 128px;
+    right: 0;
+}
+
+.form-arrow {
+    width: 120px;
+    height: 70px;
+    object-fit: contain;
+    transform: rotate(4deg);
+    margin-left: 29px;
+}
+
+.form-text {
+    position: relative;
+    left: 74px;
+    top: -35px;
+}
+
+.meet-us {
+    position: relative;
+    margin-top: 73px;
+}
+
+.meet-us-arrow {
+    position: relative;
+    left: -28px;
+    width: 110px;
+    height: 64px;
+    object-fit: contain;
+    transform: rotate(1deg);
+}
+
+.meet-us-text {
+    position: absolute;
+    top: 34px;
+    left: -52px; 
+}
+
+@media only screen and (max-width: 1279px) {
+    .get-stated {
+        padding: 0px 45px;
+        background: url('../assets/images/bubbles-bg.png') left -113px top 162px / 719px no-repeat;
+    }
+    
+    .get-stated .container {
+        padding: 246px 0 96px 0;
+    }
+
+    .getStarted-header-block {
+        width: 399px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .getStarted-form-block {
+        top: 151px;
+    }
+
+    .form-text {
+        top: -32px;
+        margin-bottom: 137px;
+    }
+
+    .meet-us {
+        margin-top: 54px;
+        margin-bottom: 168px;
+    }
+
+    .meet-us-arrow {
+        left: 0;
+        top: 0;
+    }
+    
+    .meet-us-text {
+        left: -24px; 
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .get-stated {
+        padding: 0px 116px 0 146px;
+        background: url('../assets/images/bubbles-bg.png') left -113px top 61px / 719px no-repeat;
+    }
+    
+    .get-stated .container {
+        padding: 105px 0 81px 0;
+    }
+
+    .getStarted-header-block {
+        width: 506px;
+        text-align: center;
+        margin: 0 auto 58px auto;
+    }
+
+    .getStarted-overhead {
+        text-align: center;
+        margin-bottom: 19px;
+    }
+    
+    .getStarted-header {
+        font-size: 32px;
+    }
+
+    .getStarted-form-block {
+        position: relative;
+        top: 0;
+        margin: 0 auto;
+    }
+
+    .form-arrow {
+        margin-left: 43px;
+    }
+
+    .form-text {
+        top: -32px;
+        left: 88px;
+        margin-bottom: 6px;
+    }
+
+    .meet-us {
+        width: 407px;
+        margin: 23px auto 0 auto;
+    }
+
+    .meet-us-arrow {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .meet-us-text {
+        position: relative;
+        display: block;
+        margin: 0 auto; 
+        left: -24px;
+        top: -27px;
+        text-align: center;
+    }
+
+    .countries-list-wrapper {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .get-stated {
+        padding: 0px 15px;
+        background: none;
+    }
+    
+    .get-stated .container {
+        padding: 68px 0 87px 0;
+    }
+
+    .getStarted-header-block {
+        width: 330px;
+        margin: 0 auto 36px auto;
+    }
+
+    .getStarted-overhead {
+        margin-bottom: 16px;
+    }
+    
+    .getStarted-header {
+        font-size: 28px;
+    }
+
+    .getStarted-form-block {
+        position: relative;
+        width: 312px;
+        margin: 0 auto;
+    }
+
+    .form-text {
+        margin-bottom: -6px;
+    }
+
+    .meet-us {
+        width: 312px;
+        margin: 49px auto 0 auto;
+    }
+
+    .meet-us-arrow {
+        margin-left: 46px;
+    }
+    
+    .meet-us-text {
+        left: 24px;
+        top: -27px;
+        text-align: left;
+    }
+
+    .countries-list-wrapper {
+        margin: 0 auto;
+    }
+}
