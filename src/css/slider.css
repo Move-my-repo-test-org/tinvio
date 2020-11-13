@@ -176,6 +176,7 @@
     display: none;
     height: 546px;
     animation: 0.3s ease-in-out;
+    object-fit: contain;
 }
 
 .slider-img.current {
