@@ -63,6 +63,10 @@
     color: #3897ff;
 }
 
+.menu-item:hover {
+    color: #3897ff;
+}
+
 .header-btn {
     position: relative;
     width: 103px;

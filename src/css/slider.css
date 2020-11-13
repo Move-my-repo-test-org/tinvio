@@ -1,0 +1,420 @@
+.slider {
+    padding-left: 77px;
+}
+
+.slider .container {
+    padding-bottom: 131px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-text-block {
+    max-width: 381px;
+    margin-top: 143px;
+}
+
+.slider-header {
+    max-width: 290px;
+    margin-bottom: 24px;
+}
+
+.slider-text-wrapper {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider-text-content {
+    position: absolute;
+    display: none;
+    width: 381px;
+    animation: 0.3s ease-in-out;
+}
+
+.slider-text-content.current {
+    display: block;
+}
+
+.slider-text-content.active {
+    position: relative;
+    display: block;
+}
+
+.slider-text-content.right-in {
+    animation-name: right-in-text;
+}
+
+.slider-text-content.left-in {
+    animation-name: left-in-text;
+}
+
+.slider-text-content.right-out {
+    animation-name: right-out-text;
+}
+  
+.slider-text-content.left-out {
+    animation-name: left-out-text;
+}
+
+@keyframes right-in-text {
+    from {
+        left: 120%;
+    }
+    to {
+        left: 0;
+    }
+}
+  
+@keyframes left-in-text {
+    from {
+        left: -120%;
+    }
+    to {
+        left: 0;
+    }
+}
+  
+@keyframes right-out-text {
+    from {
+        left: 0;
+    }
+    to {
+        left: 120%;
+    }
+}
+  
+@keyframes left-out-text {
+    from {
+        left: 0;
+    }
+    to {
+        left: -120%;
+    }
+}
+
+
+.slider-controls {
+    margin-top: 80px;
+    display: flex;
+}
+
+.arrow-btn {
+    width: 48px;
+    height: 48px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    border: solid 1px #dae1e8;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.arrow-btn.active {
+    background-color: #f0f1f2;
+    cursor: pointer;
+}
+
+.slider-arrow {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    opacity: 0.25;
+}
+
+.arrow-btn.active .slider-arrow {
+    opacity: 1;
+}
+
+.left-arrow-btn {
+    margin-right: 24px;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+}
+
+.right-arrow-btn {
+    margin-left: 24px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+}
+
+.slider-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: rgba(33, 39, 46, 0.15);
+}
+
+.slider-dot.active {
+    background-color: #21272e;
+}
+
+.second-dot {
+    margin: 0 12px;
+}
+
+.slider-img-block {
+    position: relative;
+    display: flex;
+    width: 747px;
+    min-width: 747px;
+    height: 592px;
+    box-sizing: border-box;
+    border-radius: 53px 0 0 53px;
+    background-color: #fcede8;
+    overflow: hidden;
+}
+
+.slider-img {
+    position: absolute;
+    top: 46px;
+    display: none;
+    height: 546px;
+    animation: 0.3s ease-in-out;
+}
+
+.slider-img.current {
+    display: block;
+    height: 546px;
+}
+
+.slider-img.active {
+    display: block;
+    position: relative;
+    top: 46px;
+    height: 546px;
+    left: -9px;
+}
+
+.slider-img.right-in {
+    animation-name: right-in-img;
+}
+  
+.slider-img.left-in {
+    animation-name: left-in-img;
+}
+  
+.slider-img.right-out {
+    animation-name: right-out-img;
+}
+  
+.slider-img.left-out {
+    animation-name: left-out-img;
+}
+
+  
+@keyframes right-in-img {
+    from {
+        left: 150%;
+    }
+    to {
+        left: -9px;
+    }
+}
+  
+@keyframes left-in-img {
+    from {
+        left: -150%;
+    }
+    to {
+        left: -9px;
+    }
+}
+  
+@keyframes right-out-img {
+    from {
+        left: -9px;
+    }
+    to {
+        left: 150%;
+    }
+}
+  
+@keyframes left-out-img {
+    from {
+        left: -9px;
+    }
+    to {
+        left: -150%;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .slider-img-block {
+        width: 491px;
+        min-width: 491px;
+    }
+
+    @keyframes right-in-img {
+        from {
+            left: 220%;
+        }
+        to {
+            left: -9px;
+        }
+    }
+      
+    @keyframes left-in-img {
+        from {
+            left: -220%;
+        }
+        to {
+            left: -9px;
+        }
+    }
+      
+    @keyframes right-out-img {
+        from {
+            left: -9px;
+        }
+        to {
+            left: 220%;
+        }
+    }
+      
+    @keyframes left-out-img {
+        from {
+            left: -9px;
+        }
+        to {
+            left: -220%;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    .slider {
+        padding-left: 66px;
+    }
+
+    .slider .container {
+        position: relative;
+        display: block;
+        height: 915px;
+        padding-bottom: 0;
+    }
+
+    .slider-img-block {
+        width: 100%;
+        min-width: 700px;
+    }
+
+    .slider-text-block {
+        position: absolute;
+        top: 652px;
+        max-width: none;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 40px;
+    }
+
+    .slider-controls {
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .pagination {
+        margin-top: 21px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .slider {
+        padding-left: 0;
+    }
+
+    .slider .container {
+        height: 801px;
+    }
+
+    .slider-img-block {
+        width: 100%;
+        min-width: 100%;
+        height: 394px;
+    }
+
+    .slider-img {
+        position: absolute;
+        top: 46px;
+        display: none;
+        height: 348px;
+        max-height: 348px;
+        animation: 0.7s ease-in-out;
+    }
+
+    .slider-text-block {
+        display: flex;
+        flex-direction: column-reverse;
+        top: 434px;
+        width: 100vw;
+        padding-right: 0;
+    }
+
+    .slider-text-wrapper {
+        width: 81vw;
+        min-width: 81vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .slider-text-content {
+        width: 81vw;
+    }
+
+    .slider-header {
+        font-size: 28px;
+        text-align: center;
+        max-width: none;
+    }
+
+    .slider-controls {
+        margin: 0 auto;
+        margin-bottom: 38px;
+    }
+
+
+    @keyframes right-in-text {
+        from {
+            left: 100%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    
+    @keyframes left-in-text {
+        from {
+            left: -100%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    
+    @keyframes right-out-text {
+        from {
+            left: 0;
+        }
+        to {
+            left: 100%;
+        }
+    }
+    
+    @keyframes left-out-text {
+        from {
+            left: 0;
+        }
+        to {
+            left: -100%;
+        }
+    }
+}

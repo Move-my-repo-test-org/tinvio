@@ -2,6 +2,10 @@
     margin-top: -90px;
 }
 
+.preview .container {
+    max-width: none;
+}
+
 .desktopScreen-img {
     display: block;
     width: 984px;

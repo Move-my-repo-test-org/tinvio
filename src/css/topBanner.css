@@ -23,7 +23,7 @@
     color: #21272e;
 }
 
-.getStarted-btn {
+.top-getStarted-btn {
     display: block;
     margin: 0 auto;
     padding: 15px 0px 17px 40px;
@@ -40,6 +40,11 @@
     line-height: 1.33;
     text-align: center;
     color: #fff;
+}
+
+.top-getStarted-btn:hover {
+    cursor: pointer;
+    background: #d83644;
 }
 
 .comment {
@@ -85,7 +90,7 @@
         height: auto;
     }
 
-    .getStarted-btn {
+    .top-getStarted-btn {
         margin-top: 48px;
     }
 }

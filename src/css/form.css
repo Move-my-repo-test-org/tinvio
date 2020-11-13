@@ -111,8 +111,21 @@ input:-ms-input-placeholder {
     margin: 0;
     padding-left: 0;
     text-align: center;
+    border: none;
     border-radius: 8px;
     background-image: linear-gradient(107deg, #ff474d, #fa4353);
+
+    font-family: Manrope3;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.33;
+    text-align: center;
+    color: #fff;
+}
+
+.getStarted-btn:hover {
+    cursor: pointer;
+    background: #d83644;
 }
 
 .btn-comment {
