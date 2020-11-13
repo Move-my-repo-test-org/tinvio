@@ -4,8 +4,10 @@
     box-sizing: border-box;
     padding-top: 80px;
     background: url('../assets/images/bg-topBanner-left.png') left -120px top 124px / 390px no-repeat,
+                url('../assets/images/first-dots.png') no-repeat right 93px top 5px/600px,
                 url('../assets/images/bg-topBanner-right.png') right -60px top 110px / 325px no-repeat;
     background-color: #F8F9FB;
+    z-index: 0;
 }
 
 .top-banner .container {
@@ -59,6 +61,7 @@
 @media only screen and (max-width: 1279px) {
     .top-banner {
         background: url('../assets/images/bg-topBanner-left.png') left -220px top 124px / 390px no-repeat,
+                    url('../assets/images/first-dots.png') no-repeat right 93px top 5px/600px,
                     url('../assets/images/bg-topBanner-right.png') right -150px top 110px / 325px no-repeat;
         background-color: #F8F9FB;
     }
@@ -67,6 +70,7 @@
 @media only screen and (max-width: 1023px) {
     .top-banner {
         background: url('../assets/images/bg-topBanner-left.png') left -250px top 124px / 390px no-repeat,
+                    url('../assets/images/first-dots.png') no-repeat right 93px top 5px/600px,
                     url('../assets/images/bg-topBanner-right.png') right -160px top 110px / 325px no-repeat;
         background-color: #F8F9FB;
     }

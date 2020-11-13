@@ -32,9 +32,17 @@
             url('assets/fonts/AppleColorEmoji.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Manrope3', 'Roboto', sans-serif;
+}
+
+.App {
+    position: relative;
 }
 
 h1 {
@@ -111,4 +119,26 @@ ul {
 
 li {
     list-style: none;
+}
+
+.dots {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./assets/images/first-dots.png') no-repeat right 93px top 5px/600px,
+                url('./assets/images/second-dots.png') no-repeat right 100px top 802px/961px,
+                url('./assets/images/third-dots.png') no-repeat left 319px bottom 998px/710px,
+                url('./assets/images/fourth-dots.png') no-repeat left 323px bottom 151px/370px;
+}
+
+@media only screen and (max-width: 767px) {
+    .dots {
+        display: none;
+    }
 }

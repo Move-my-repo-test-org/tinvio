@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import logo from '../assets/logo/logo-color.png';
 import burger from '../assets/icons/burger.png';
 import '../css/header.css';
+import { goToAnchor } from 'react-scrollable-anchor';
 
 function Header() {
 
@@ -40,7 +41,7 @@ function Header() {
                                 <a href="./about" className={ currentPage==='About' ? "active menu-item" : "menu-item" } >About</a>
                                 <a href="./contact" className={ currentPage==='Contact' ? "active menu-item" : "menu-item" } >Contact</a>
                             </div>
-                            <button className="header-btn">Get Started</button>
+                            <button className="header-btn" onClick={() => {goToAnchor('get-started')}}>Get Started</button>
                         </div>) :
                         <div className="mobile-menu">
                             <img src={ burger } className="burger-img" alt="burger icon" />

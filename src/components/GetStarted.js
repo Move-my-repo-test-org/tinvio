@@ -11,7 +11,7 @@ function GetStarted() {
     return (
         <section className="get-stated">
             <div className="container">
-                <div className="getStarted-header-block">
+                <div className="getStarted-header-block" id={'get-started'}>
                     <p className="overhead getStarted-overhead">let’s do this</p>
                     <h2 className="section-header getStarted-header">Fill up the form and we’ll get in touch within<br /> a few hours</h2>
                 </div>
