@@ -38,11 +38,14 @@ input {
 .country-code-input {
     width: 96px;
     margin-right: 16px;
+    z-index: 2;
 }
 
 .tel-number-input {
     position: relative;
     width: 231px;
+    z-index: 2;
+    background: transparent;
 }
 
 .telephone-input-block::after {
