@@ -11,6 +11,8 @@
 }
 
 .top-banner .container {
+    max-width: 1280px;
+    box-sizing: border-box;
     padding-top: 115px;
 }
 
