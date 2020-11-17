@@ -1,17 +1,35 @@
 import React from 'react';
+import Lottie from 'react-lottie';
 import communicationImg from '../assets/images/communication-image.png';
-import goodCommunication from '../assets/images/goodCommunication-image.png';
+import goodCommunication from '../assets/images/communication-image-after.png';
 import '../css/communication.css';
+import animationData from '../assets/animation.json';
 
 function Communication() {
 
     const [communicationType, setCommunicationType] = React.useState("before");
 
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: animationData,
+    };
+
     return (
         <section className="communication">
             <div className="container">
                 <div className="communication-img-container">
-                    <img className={communicationType === 'before' ? "communication-img" : "goodCommunication-img"} src={ communicationType === 'before' ? communicationImg : goodCommunication } alt="screenshot of communication" />
+                    
+                    { communicationType === 'before' ?
+                    <img 
+                        className="communication-img"
+                        src={communicationImg}
+                        alt="screenshot of communication" 
+                    /> : 
+                    <div className="goodCommunication-animation">
+                        <Lottie options={defaultOptions} width="300" />
+                    </div>
+                    }
                 </div>
                 <div className="communication-text-block">
                     <h2 className="section-header communication-header">Communication</h2>
@@ -29,3 +47,4 @@ function Communication() {
 }
 
 export default Communication;
+

@@ -6,6 +6,7 @@
 }
 
 .communication .container {
+    position: relative;
     display: flex;
     padding-top: 96px;
     margin: 0 auto;
@@ -13,20 +14,24 @@
 }
 
 .communication-img-container {
+    position: relative;
+    top: -96px;
     width: 624px;
     min-width: 624px;
-    margin-top: 26px;
     margin-right: 122px;
 }
 
 .communication-img {
+    margin-top: 132px;
     width: 624px;
     height: auto;
 }
 
 .goodCommunication-img {
     display: block;
-    width: 500px;
+    position: relative;
+    top: -100px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -94,7 +99,7 @@
     }
 
     .goodCommunication-img {
-        width: 35vw;
+        width: 30vw;
     }
 
     .communication-text {
@@ -122,17 +127,18 @@
         width: 64vw;
         min-width: 64vw;
         text-align: center;
-        top: 300px;
+        top: 200px;
         margin: 0;
     }
 
     .communication-img {
+        margin-top: 100px;
         width: 64vw;
         max-width: 600px;
     }
 
     .goodCommunication-img {
-        width: 50vw;
+        width: 45vw;
         max-width: 400px;
     }
 
@@ -179,19 +185,24 @@
     }
 
     .communication-img-container {
+        position: relative;
         width: 89vw;
         min-width: 89vw;
-        top: 276px;
+        height: 352px;
+        top: 0;
+        margin-top: 100px;
+        object-fit: contain;
     }
 
     .communication-img {
         width: 89vw;
         max-width: 400px;
+        /* margin-top: 40vw; */
     }
 
-    .goodCommunication-img {
-        width: 75vw;
-        max-width: 350px;
+    .goodCommunication-animation {
+        position: absolute;
+        bottom: 0px;
     }
 
     .communication-text-block {
@@ -209,5 +220,19 @@
         min-width: none;
         max-width: none;
         margin: 0;
+    }
+}
+
+@media only screen and (min-width: 670px) and (max-width: 767px) {
+    .goodCommunication-animation {
+        position: absolute;
+        bottom: -120px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 670px) {
+    .goodCommunication-animation {
+        position: absolute;
+        bottom: -80px;
     }
 }
