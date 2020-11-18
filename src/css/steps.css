@@ -1,5 +1,5 @@
 .steps {
-    padding: 0 110px;
+    padding: 0 93px;
     background-color: #F8F9FB;
 }
 
@@ -7,7 +7,7 @@
     margin: 0 auto;
     padding: 88px 0 91px 0;
     box-sizing: border-box;
-    max-width: 1060px;
+    max-width: 1094px;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@
 .step-img {
     width: 57px;
     height: 56px;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 
 .step-subtitle {
@@ -38,6 +38,7 @@
 
 .step-text {
     margin: 0 auto;
+    margin-top: 5px;
     font-family: Manrope3;
     font-size: 14px;
     font-weight: 600;
@@ -49,8 +50,8 @@
     max-width: 200px;
 }
 
-.third-step-text {
-    max-width: 222px;
+.third-text-step {
+    max-width: 150px;
 }
 
 .steps-line {

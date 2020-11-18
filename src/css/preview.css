@@ -1,5 +1,5 @@
 .preview {
-    margin-top: -90px;
+    margin-top: -101px;
 }
 
 .preview .container {
@@ -8,9 +8,8 @@
 
 .desktopScreen-img {
     display: block;
-    width: 984px;
-    height: 550px;
-    margin: 0 auto 50px auto;
+    width: 1052px;
+    margin: 0 auto 67px auto;
 }
 
 .preview-section-header {
@@ -21,11 +20,11 @@
     display: flex;
     justify-content: space-between;
     width: 984px;
-    margin: 58px auto 114px auto;
+    margin: 63px auto 120px auto;
 }
 
 .partners-logo {
-    height: 91px;
+    height: 86px;
 }
 
 .partners-logo-img {

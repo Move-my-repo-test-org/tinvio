@@ -4,7 +4,7 @@
 
 .ordering .container {
     margin: 0 auto;
-    padding: 127px 0 122px 0;
+    padding: 125px 0 122px 0;
     box-sizing: border-box;
     max-width: 1046px;
 }
@@ -22,7 +22,7 @@
 
 .ordering-text {
     max-width: 449px;
-    margin-top: 17px;
+    margin-top: 15px;
 }
 
 .ordering-imgs-block {
@@ -53,9 +53,14 @@
 .ordering-img-text-wrapper {
     display: flex;
     justify-content: center;
-    padding-top: 501px;
+    padding-top: 500px;
     margin: 0 auto;
-    width: 117px;
+    width: 308px;
+    margin-left: 10px;
+}
+
+.ordering-img-wrapper:nth-of-type(2) .ordering-img-text-wrapper {
+    margin-left: 15px;
 }
 
 .ordering-img-text {

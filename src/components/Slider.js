@@ -1,6 +1,8 @@
 import React from 'react';
 import arrow from '../assets/icons/arrow.png';
 import sliderImg from '../assets/images/slider-image-orders.png';
+import sliderImg2 from '../assets/images/slider-image-costs.png';
+import sliderImg3 from '../assets/images/slider-image-analytics.png';
 import '../css/slider.css';
 
 function Slider() {
@@ -116,8 +118,8 @@ function Slider() {
                 </div>
                 <div className="slider-img-block">
                     <img ref={firstSlideImg} className="slider-img active" src={ sliderImg } alt="screenshot of orders page" />
-                    <img ref={secondSlideImg} className="slider-img" src={ sliderImg } alt="screenshot of orders page" />
-                    <img ref={thirdSlideImg} className="slider-img" src={ sliderImg } alt="screenshot of orders page" />
+                    <img ref={secondSlideImg} className="slider-img" src={ sliderImg2 } alt="screenshot of orders page" />
+                    <img ref={thirdSlideImg} className="slider-img slider-img-third " src={ sliderImg3 } alt="screenshot of orders page" />
                 </div>
             </div>
         </div>

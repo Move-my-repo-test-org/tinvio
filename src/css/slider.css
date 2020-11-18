@@ -16,13 +16,14 @@
 
 .slider-header {
     max-width: 290px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
 
 .slider-text-wrapper {
     position: relative;
     display: flex;
     overflow: hidden;
+    max-width: 375px;
 }
 
 .slider-text-content {
@@ -172,24 +173,40 @@
 
 .slider-img {
     position: absolute;
-    top: 46px;
+    top: 43px;
     display: none;
-    height: 546px;
+    height: 550px;
     animation: 0.3s ease-in-out;
     object-fit: contain;
 }
 
+.slider-img-third {
+    height: 510px;
+    padding-left: 70px;
+}
+
+
 .slider-img.current {
     display: block;
-    height: 546px;
+    height: 550px;
+}
+
+.slider-img-third.current {
+    height: 510px;
+    padding-left: 70px;
 }
 
 .slider-img.active {
     display: block;
     position: relative;
-    top: 46px;
-    height: 546px;
-    left: -9px;
+    top: 43px;
+    height: 550px;
+    left: -15px;
+}
+
+.slider-img-third.active{
+    height: 510px;
+    padding-left: 70px;
 }
 
 .slider-img.right-in {
@@ -214,7 +231,7 @@
         left: 150%;
     }
     to {
-        left: -9px;
+        left: -15px;
     }
 }
   
@@ -223,13 +240,13 @@
         left: -150%;
     }
     to {
-        left: -9px;
+        left: -15px;
     }
 }
   
 @keyframes right-out-img {
     from {
-        left: -9px;
+        left: -15px;
     }
     to {
         left: 150%;
@@ -238,7 +255,7 @@
   
 @keyframes left-out-img {
     from {
-        left: -9px;
+        left: -15px;
     }
     to {
         left: -150%;
@@ -256,7 +273,7 @@
             left: 220%;
         }
         to {
-            left: -9px;
+            left: -15px;
         }
     }
       
@@ -265,13 +282,13 @@
             left: -220%;
         }
         to {
-            left: -9px;
+            left: -15px;
         }
     }
       
     @keyframes right-out-img {
         from {
-            left: -9px;
+            left: -15px;
         }
         to {
             left: 220%;
@@ -280,7 +297,7 @@
       
     @keyframes left-out-img {
         from {
-            left: -9px;
+            left: -15px;
         }
         to {
             left: -220%;
@@ -350,6 +367,21 @@
         height: 348px;
         max-height: 348px;
         animation: 0.7s ease-in-out;
+    }
+
+    .slider-img-third {
+        height: 320px;
+        padding-left: 50px;
+    }
+
+    .slider-img-third.current{
+        height: 320px;
+        padding-left: 50px;
+    }
+
+    .slider-img-third.active{
+        height: 320px;
+        padding-left: 50px;
     }
 
     .slider-text-block {

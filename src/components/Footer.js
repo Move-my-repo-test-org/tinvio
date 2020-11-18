@@ -29,8 +29,8 @@ function Footer() {
                     <a href="/" className="footer-social-logo"><img src={ linkedIn } className="footer-social-logo-img" alt="linkedIn logo" /></a>
                 </div>
                 <div className="download-links">
-                    <a href="/" className="footer-download-logo"><img src={ google } className="footer-download-logo-img" alt="google play logo" /></a>
                     <a href="/" className="footer-download-logo"><img src={ appStore } className="footer-download-logo-img" alt="app store logo" /></a>
+                    <a href="/" className="footer-download-logo"><img src={ google } className="footer-download-logo-img" alt="google play logo" /></a>
                 </div>
             </div>
             <div className="rights">

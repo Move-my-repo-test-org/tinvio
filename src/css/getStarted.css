@@ -29,7 +29,7 @@
     font-family: HandOfSeanPro;
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: -2px;
+    letter-spacing: -1.7px;
     color: #21272e;
   
 }
@@ -37,7 +37,7 @@
 .getStarted-form-block {
     position: absolute;
     width: 407px;
-    top: 128px;
+    top: 130px;
     right: 0;
 }
 
@@ -45,14 +45,13 @@
     width: 120px;
     height: 70px;
     object-fit: contain;
-    transform: rotate(4deg);
     margin-left: 29px;
 }
 
 .form-text {
     position: relative;
     left: 74px;
-    top: -35px;
+    top: -30px;
 }
 
 .meet-us {
@@ -74,6 +73,12 @@
     position: absolute;
     top: 34px;
     left: -52px; 
+    font-size: 17px;
+    letter-spacing: -1.4px;
+}
+
+.countries-list-wrapper {
+    margin-top: 7px;
 }
 
 @media only screen and (max-width: 1279px) {

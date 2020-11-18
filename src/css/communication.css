@@ -22,7 +22,7 @@
 }
 
 .communication-img {
-    margin-top: 132px;
+    margin-top: 110px;
     width: 624px;
     height: auto;
 }
@@ -83,6 +83,10 @@
 
 .communication-subtitle {
     margin-bottom: 8px;
+}
+
+.communication-text {
+    max-width: 400px;
 }
 
 @media only screen and (max-width: 1279px) {
