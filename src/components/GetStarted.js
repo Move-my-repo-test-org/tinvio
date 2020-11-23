@@ -3,6 +3,7 @@ import CountriesList from './CountriesList';
 import Form from './Form';
 import rightArrow from '../assets/icons/right-arrow-handwritten.png';
 import leftArrow from '../assets/icons/left-arrow-handwritten.png';
+import bubbles from '../assets/images/bubbles-bg.png';
 import '../css/getStarted.css';
 
 
@@ -11,6 +12,7 @@ function GetStarted() {
     return (
         <section className="get-stated">
             <div className="container">
+                <img src={bubbles} className="bubbles-bg" alt="colorful bubbles" />
                 <div className="getStarted-header-block" id={'get-started'}>
                     <p className="overhead getStarted-overhead">let’s do this</p>
                     <h2 className="section-header getStarted-header">Fill up the form and we’ll get in touch within<br /> a few hours</h2>

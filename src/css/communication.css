@@ -3,6 +3,7 @@
     background: #F8F9FB;
     padding-left: 50px;
     padding-right: 76px;
+    margin-top: -101px;
 }
 
 .communication .container {
@@ -57,6 +58,11 @@
     letter-spacing: 1px;
     text-align: center;
     color: #787c80;
+    cursor: pointer;
+}
+
+.communication-btn:hover {
+    background: rgba(144, 149, 153, 0.3);
 }
 
 .communication-btn:first-of-type {

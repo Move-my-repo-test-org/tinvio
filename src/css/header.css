@@ -8,6 +8,7 @@
 }
 
 .header .container {
+    box-sizing: border-box;
     padding: 0 76px 0 64px;
 }
 

@@ -2,18 +2,34 @@
     
     height: 700px;
     box-sizing: border-box;
-    padding-top: 80px;
-    background: url('../assets/images/bg-topBanner-left.png') left -127px top 124px / 404px no-repeat,
+    /* background: url('../assets/images/bg-topBanner-left.png') left -127px top 124px / 404px no-repeat,
                 url('../assets/images/first-dots.png') no-repeat right 93px top 5px/600px,
                 url('../assets/images/bg-topBanner-right.png') right -60px top 110px / 325px no-repeat;
+    background: url('../assets/images/first-dots.png') no-repeat right 93px top 85px/600px; */
     background-color: #F8F9FB;
-    z-index: 0;
 }
 
 .top-banner .container {
+    position: relative;
     max-width: 1280px;
     box-sizing: border-box;
-    padding-top: 115px;
+    padding-top: 195px;
+    background: url('../assets/images/first-dots.png') no-repeat right 93px top 5px/600px;
+    height: 700px;
+}
+
+.left-img-bg {
+    position: absolute;
+    width: 404px;
+    left: -127px;
+    top: 120px;
+}
+
+.right-img-bg {
+    position: absolute;
+    width: 325px;
+    right: -60px;
+    top: 107px;
 }
 
 .main-header {
@@ -30,7 +46,6 @@
 .top-getStarted-btn {
     display: block;
     margin: 0 auto;
-    padding: 13px 0px 17px 42px;
     width: 214px;
     height: 52px;
     border: none;
@@ -68,6 +83,20 @@
                     url('../assets/images/first-dots.png') no-repeat right 93px top 5px/600px,
                     url('../assets/images/bg-topBanner-right.png') right -150px top 110px / 325px no-repeat;
         background-color: #F8F9FB;
+        padding-top: 80px;
+    }
+
+    .top-banner .container {
+        padding-top: 115px;
+        background: none;
+    }
+
+    .left-img-bg {
+        display: none;
+    }
+    
+    .right-img-bg {
+        display: none;
     }
 }
 

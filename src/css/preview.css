@@ -1,9 +1,11 @@
 .preview {
-    margin-top: -101px;
+    position: relative;
+    top: -101px;
+    /* margin-top: -101px; */
 }
 
 .preview .container {
-    max-width: none;
+    overflow: visible;
 }
 
 .desktopScreen-img {

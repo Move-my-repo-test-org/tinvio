@@ -1,12 +1,20 @@
 .get-stated {
     padding: 0px 149px 0px 76px;
-    background: url('../assets/images/bubbles-bg.png') left -113px top 139px / 719px no-repeat;
 }
 
 .get-stated .container {
     position: relative;
     padding: 223px 0 91px 0;
     margin: 0 auto;
+    max-width: 1055px;
+}
+
+.bubbles-bg {
+    position: absolute;
+    width: 719px;
+    left: -189px;
+    top: 139px;
+    z-index: -1;
 }
 
 .getStarted-header-block {
@@ -85,6 +93,10 @@
     .get-stated {
         padding: 0px 45px;
         background: url('../assets/images/bubbles-bg.png') left -113px top 162px / 719px no-repeat;
+    }
+    
+    .bubbles-bg {
+        display: none;
     }
     
     .get-stated .container {
